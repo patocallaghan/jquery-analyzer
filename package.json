@@ -1,0 +1,26 @@
+{
+  "name": "jquery-analyzer",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "yarn test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/patocallaghan/jquery-analyzer.git"
+  },
+  "keywords": [
+    "jquery",
+    "ast"
+  ],
+  "author": "Pat O'Callaghan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/patocallaghan/jquery-analyzer/issues"
+  },
+  "homepage": "https://github.com/patocallaghan/jquery-analyzer#readme",
+  "dependencies": {
+    "acorn-walk": "^6.1.1"
+  }
+}
