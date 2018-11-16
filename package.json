@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "lint": "node_modules/.bin/eslint .",
     "test": "node_modules/.bin/jest",
     "test:watch": "node_modules/.bin/jest --watchAll"
   },
@@ -25,12 +26,18 @@
     "acorn-walk": "^6.1.1"
   },
   "devDependencies": {
-    "jest": "^23.6.0"
+    "eslint": "^5.9.0",
+    "eslint-config-prettier": "^3.3.0",
+    "eslint-plugin-prettier": "^3.0.0",
+    "jest": "^23.6.0",
+    "prettier": "^1.15.2"
   },
   "jest": {
-    "testEnvironment": "node",
-    "testMatch": [
-      "**/tests/**/*.js"
-    ]
+    "testEnvironment": "node"
+  },
+  "prettier": {
+    "printWidth": 100,
+    "singleQuote": true,
+    "trailingComma": "all"
   }
 }
